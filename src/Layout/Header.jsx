@@ -7,7 +7,7 @@ import './Header.scss';
 export default function Header() {
   return (
     <header className='header'>
-      <Link to='/'>
+      <Link to='/react-planets'>
         <h1>The Planets</h1>
       </Link>
 

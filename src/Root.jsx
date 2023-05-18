@@ -6,8 +6,9 @@ export default function Root() {
   return (
     <div>
       <Header />
+      <p>Click Some Planet</p>
+
       <div>
-        ' outlet ' :
         <Outlet />
       </div>
     </div>

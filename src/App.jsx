@@ -30,7 +30,7 @@ export const routItems = [
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='/' element={<Root />}>
+      <Route path='react-planets' element={<Root />}>
         {routItems.map((item) => (
           <Route
             key={item.id}
