@@ -1,0 +1,19 @@
+.planet {
+  margin-top: 50px;
+  & > h1 {
+    font-size: 34px;
+    color: green;
+  }
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  gap: 10px 30px;
+  margin-top: 40px;
+}
+
+.text {
+  font-size: 20px;
+  color: red;
+}
